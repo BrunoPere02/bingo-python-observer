@@ -13,3 +13,21 @@ Projeto acadêmico desenvolvido para a faculdade, aplicando o padrão de projeto
 - **Orientação a Objetos**
 
 ## 🎮 Como Funciona
+
+Sorteador (Subject) sorteia números aleatórios, notifica a Cartela (Observer) que marca os acertos. Quando a cartela está completa, o jogador vence!
+
+## 🗂️ Estrutura do Projeto
+
+| Classe | Responsabilidade |
+|--------|-----------------|
+| Sorteador | Sorteia números e notifica observadores |
+| Cartela | Recebe números e verifica vitória |
+
+## ▶️ Como Rodar
+
+Execute no terminal: python bingo.py
+
+## 👨‍💻 Autor
+
+**Bruno Pereira Souza**
+github.com/BrunoPere02
